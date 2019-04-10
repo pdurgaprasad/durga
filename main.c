@@ -1,10 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n1, n2, i, gcd;
-
-    printf("Enter two integers: ");
-    scanf("%d %d", &n1, &n2);
+    int n1=1, n2=2, i, gcd;
 
     for(i=1; i <= n1 && i <= n2; ++i)
     {
