@@ -3,7 +3,7 @@ include:
 - language: c
 sudo: false # only for faster builds
 compiler:
-- clang
+//- clang
 - gcc
 script:
 - gcc -o test test.c // we can use gcc instead of clang too
